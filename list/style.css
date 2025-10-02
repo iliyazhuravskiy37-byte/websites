@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Keyboard&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap'); 
+body{
+    background-color: rgb(0, 132, 255);
+    color: rgb(255, 251, 0);
+    font-family: "Story Script", sans-serif;
+}
+ul{
+    list-style-type: disc;
+}
+.fav{
+    font-size: 25px;color: rgb(0, 255, 102);
+    font-family: "Libertinus Keyboard", system-ui;
+}
+.unwatched{
+    color:rgb(255, 0, 0)
+}
+h1{
+    font-family: "Dancing Script", cursive;
+    text-align:center; 
+    text-decoration:underline 10px white;
+    text-shadow:4px 4px 5px white;
+}
+a {
+    text-decoration:none;
+ }

@@ -1,0 +1,45 @@
+.card {
+    display: inline-block;
+    width: 18%;
+    background-color: rgb(255, 255, 255);
+    border: solid #B83400 4px;
+    border-radius: 10px;
+    margin: 3px; 
+    padding-bottom:10px;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    border-radius: 3% 3% 0% 0%
+}
+
+body {
+    background-color: #adefc3;
+    text-align: center;
+}
+
+.button {
+    background-color: #adefc3;
+    border-radius: 10px;
+    width: 150px; 
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+
+}
+
+.menu-link {
+    border: solid black;
+    padding: 10px;
+    margin: 20px;
+    display: inline-block;
+    border-radius: 40px;
+    color: #802804;
+    font-size: 25px;
+    text-decoration: none;
+    box-shadow: 3px 5px 3px 0px
+}
+span {
+    vertical-align: super;
+}
