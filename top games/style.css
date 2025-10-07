@@ -56,29 +56,51 @@ caption {
     color: #4b0081;
     font-size: 35px;
 }
-td {
-    border:solid black 2px
 
+td {
+    border: dashed rgb(135, 135, 135) 2px;
+    background-color: white;
+    padding: 20px;
+    padding-bottom: 5px;
+    border-top: none;
 }
+
 table {
     border-collapse: collapse;
     margin: auto;
 }
-.basic{
-   background-color: #fe1082
+
+.basic {
+    background-color: #fe1082
 }
-.pro{
-background-color:#0082f4 ;
+
+.pro {
+    background-color: #0082f4;
 }
-.gold{
-background-color:#6500dd ;
+
+.gold {
+    background-color: #6500dd;
 }
-.platinum{
-    background-color:#fba004 ;
+
+.platinum {
+    background-color: #fba004;
 }
-th{
-padding:40px;
-border-radius:10px 10px 0px 0px;
-color: white;
-text-shadow: 2px 2px ;
+
+th {
+    padding: 40px;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+}
+
+.gray-bg td {
+    background-color: #f1f1f1;
+}
+
+.price {
+    box-shadow:1px 3px 5px 0px grey;
+    padding: 10px;
+    border-radius: 3px; 
+    width: fit-content;
+    margin: auto; 
 }
