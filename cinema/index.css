@@ -1,0 +1,134 @@
+/*it would be nice to include the font I used below*/
+body {
+    /*I'll fill it out later*/
+}
+
+h1 {
+    text-align: center;
+    font-size: 65px;
+    color: #8B0000;
+    /*When I make the title, I'll add a shadow to it.*/
+}
+
+.menu {
+    margin-top: 80px;
+    text-align: center;
+}
+
+/*So I couldn’t figure out why the links didn’t change the style and the underlining remained*/
+.menu {
+    margin: 0 100px;
+    font-size: 35px;
+    color: #8B4513;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/*Sorry, but something bad happened to the color. For some reason the color remained black*/
+.genrename {
+    margin-top: 120px;
+    font-size: 40px;
+    
+}
+
+.films-wrapper {
+    text-align: center;
+}
+
+.filmimg {
+    width: 400px;
+}
+
+/*Somehow these blocks with pictures just don’t fit in one line
+and the size is kind of big. And everything is stuck to the edges and there is no shadow. Horror...
+*/
+.filmcard {
+    background-color: #FDF5E6;
+    border-radius: 20px;
+    text-align: center;
+    vertical-align: top;
+    margin-top: 20px;
+    margin-left: 1%;
+    box-sizing: content-box; /*I'm 99% sure I chose the right property*/
+    
+}
+
+.filmcard p {
+    text-align: center;
+    display: block;
+}
+
+/*Looks like we have very sharp corners?*/
+.button {
+    background-color: #F08080;
+    width: 110px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 5px;
+
+}
+
+.food {
+    margin-top: 80px;
+    color: #800000;
+    font-size: 40px;
+
+}
+
+caption {
+    font-size: 30px;
+    margin: 10px;
+}
+
+/*Does the table seem to have to be centered or not? Also, in the template, the cells are located together, and not separately.
+*/
+table {
+    width: 60%;
+    text-align: center;
+    font-size: 20px;
+    background-color: #FDF5E6;
+
+}
+
+th {
+    border: 1px solid black;
+}
+
+/*How to determine which cell is which?*/
+td {
+   
+}
+
+/*Is everything ok vertically?*/
+.price {
+    vertical-align: top;
+}
+
+.listwrapper {
+    width: 600px;
+    margin: 60px auto 0;
+}
+
+.listheader {
+    font-size: 40px;
+    color: #800000;
+}
+
+/*The template seems to need squares. But I couldn't figure it out.*/
+ul {
+    font-size: 24px;
+
+}
+
+.adress {
+    text-align: center;
+    font-size: 24px;
+}
+
+/*I think the text size is just right, but I have my doubts.*/
+.welcome {
+    text-align: center;
+    margin-top: 80px;
+    color: #8B4513;
+
+}
