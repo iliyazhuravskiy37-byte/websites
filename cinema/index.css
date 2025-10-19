@@ -1,13 +1,15 @@
-/*it would be nice to include the font I used below*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
-    /*I'll fill it out later*/
+    background-color: #fee9ce;
+    color: black;
 }
 
 h1 {
     text-align: center;
     font-size: 65px;
     color: #8B0000;
-    /*When I make the title, I'll add a shadow to it.*/
+    text-shadow: grey 5px 5px 10px;
 }
 
 .menu {
@@ -15,20 +17,20 @@ h1 {
     text-align: center;
 }
 
-/*So I couldn’t figure out why the links didn’t change the style and the underlining remained*/
-.menu {
+
+.menu-link {
     margin: 0 100px;
     font-size: 35px;
     color: #8B4513;
     font-family: 'Roboto', sans-serif;
-
+    text-decoration: none;
 }
 
 /*Sorry, but something bad happened to the color. For some reason the color remained black*/
 .genrename {
     margin-top: 120px;
     font-size: 40px;
-    
+
 }
 
 .films-wrapper {
@@ -49,8 +51,9 @@ and the size is kind of big. And everything is stuck to the edges and there is n
     vertical-align: top;
     margin-top: 20px;
     margin-left: 1%;
-    box-sizing: content-box; /*I'm 99% sure I chose the right property*/
-    
+    box-sizing: content-box;
+    /*I'm 99% sure I chose the right property*/
+
 }
 
 .filmcard p {
@@ -95,9 +98,7 @@ th {
 }
 
 /*How to determine which cell is which?*/
-td {
-   
-}
+td {}
 
 /*Is everything ok vertically?*/
 .price {
