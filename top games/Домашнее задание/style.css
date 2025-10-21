@@ -42,3 +42,10 @@ body {
 span {
     vertical-align: super;
 }
+td{
+    border: solid grey;
+    
+}
+table {
+    border-collapse:collapse;
+}
