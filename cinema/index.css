@@ -98,12 +98,13 @@ th {
     border: 1px solid black;
 }
 
-/*How to determine which cell is which?*/
-td {}
 
-/*Is everything ok vertically?*/
+td {
+    border: 1px solid black;
+}
+
 .price {
-    vertical-align: top;
+    vertical-align:middle;
 }
 
 .listwrapper {
@@ -116,10 +117,10 @@ td {}
     color: #800000;
 }
 
-/*The template seems to need squares. But I couldn't figure it out.*/
+
 ul {
     font-size: 24px;
-
+list-style-type: square;
 }
 
 .adress {
@@ -127,10 +128,10 @@ ul {
     font-size: 24px;
 }
 
-/*I think the text size is just right, but I have my doubts.*/
+
 .welcome {
     text-align: center;
     margin-top: 80px;
     color: #8B4513;
-
+    font-size: 40px;
 }
