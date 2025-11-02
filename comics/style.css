@@ -1,0 +1,39 @@
+.comics{
+    background-color: rgb(0, 0, 0);
+    width: 600px;
+    height: 900px;
+    margin: auto;
+    
+}
+.pic1{
+    background-image: url("img/pic1.PNG");
+    background-repeat:no-repeat;
+    background-position:left 0;
+    background-size:600px 300px;
+}
+.pic2{
+    background-image: url("img/pic2.PNG");
+    background-repeat:no-repeat;
+    background-position:left 0;
+    background-size:600px 300px;
+}
+.pic3{
+    background-image: url("img/pic3.PNG");
+    background-repeat:no-repeat;
+    background-position:left 0;
+    background-size:600px 300px;
+}
+.cover{
+    background-image: url(img/header.jpg);
+    height: 900px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+body{
+    text-align: center;
+}
+hr{
+    border: solid black 5px;
+    width: 590px;
+}
