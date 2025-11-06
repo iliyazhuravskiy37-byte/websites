@@ -1,0 +1,12 @@
+table{
+    height: 700px;
+    width: 700px;
+}
+td{
+    border: solid black;
+    background-size: cover;
+    background-position:center;
+}
+.pic1{
+    background-image: url(1.png);
+}
