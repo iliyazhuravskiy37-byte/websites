@@ -1,12 +1,43 @@
 table{
     height: 700px;
     width: 700px;
+    margin: auto;
+    border-collapse: collapse;
 }
 td{
-    border: solid black;
+    border: solid rgb(255, 255, 255) 10px;
     background-size: cover;
     background-position:center;
+    box-shadow: 1px 1px 50px 20px white ;
 }
 .pic1{
     background-image: url(1.png);
+}
+.pic2{
+    background-image: url(2.jpg);
+}
+.pic3{
+    background-image: url(3.jpg);
+}
+.pic4{
+    background-image: url(4.jpg);
+}
+.pic5{
+    background-image: url(5.jpg);
+}
+.pic6{
+    background-image: url(6.jpeg);
+}
+.pic7{
+    background-image: url(7.jpg);
+}
+.pic8{
+    background-image: url(8.jpg);
+}
+.pic9{
+    background-image: url(9.jpg);
+}
+body{
+    background-color: #1a328a;
+
 }
