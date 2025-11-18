@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
 .paper {
     width: 900px;
     background-color: #f5f8fd;
@@ -15,27 +16,39 @@
 }
 
 .sub-header {
-    height: 85px;
+    height: 220px;
     background-image: url("Img/pic3.PNG");
     background-size: cover;
     background-position: center;
 }
 
-.article-container {
-    border: solid black 3px;
-    margin-top: 20px;
-    padding: 20px;
-    overflow: hidden;
+.red-spider{ 
+    width: 20%;
+    display: block;
+    margin: auto;
 }
 
-img {
+.search{
+    width: 38%;
+}
+
+.spider-man {
     float: right;
-    opacity: 1;
     margin: 5px;
+    width: 57%;
 }
-
-.column {
-    width: 31%;
-    float: left;
-    margin: 5px;
+h1{
+    font-family: "Yeseva One", serif;
+    font-size: 74px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 40%;
+    margin: 0px;
+}
+h2{
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: red;
+    text-align: center;
+    padding: 5px;
 }
